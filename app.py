@@ -113,7 +113,7 @@ for i, page in enumerate(pages):
 if st.session_state.selected_page == "Home":
     st.markdown("""
         <div class='main-title'>
-            <span class='heart-logo'>❤️</span>
+            <span class='heart-logo'>🧠</span>
             StrokeSniffer
         </div>
     """, unsafe_allow_html=True)
