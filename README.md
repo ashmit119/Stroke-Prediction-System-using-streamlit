@@ -1,45 +1,39 @@
+# Stroke Prediction System using Streamlit
 
-🧠 StrokeSniffer – Stroke Prediction System
+This project predicts the likelihood of experiencing a stroke using a machine learning algorithm trained on medical and lifestyle data.
 
-Welcome to StrokeSniffer — a personalized health companion app designed to predict the likelihood of experiencing a stroke based on important health and lifestyle factors.
+## Setup
 
-📌 Project Overview
+If you have a Jupyter Notebook environment:
 
-StrokeSniffer leverages machine learning trained on real medical data to analyze user inputs such as age, gender, medical history, and lifestyle choices to provide an assessment of stroke risk.
+1. Open the `new notebook.ipynb` notebook.  
+2. Run the cells step-by-step to see the data exploration, model training, and analysis.
 
-This project demonstrates the use of Streamlit for a clean, interactive web app interface, combined with data science and model deployment best practices.
+Or, if using Python:
 
-⚠️ Note: This app provides predictive guidance and should never replace professional medical advice. Please consult a healthcare professional for diagnosis and treatment.
+1. Install the required packages:
 
-⚙️ Prerequisites
 
-Python 3.7 or above
+## Files
 
-pip package manager
+- `stroke_prediction_dataset.csv` - dataset used for training  
+- `new notebook.ipynb` - Jupyter notebook with data analysis and model training code  
+- `app.py` - Streamlit app with UI and prediction logic  
+- `model.pkl` - trained machine learning model  
+- `label_encoders.pkl` - encoders for categorical features  
+- `metrics.pkl` - saved model metrics  
+- `confusion_matrix.pkl` - confusion matrix for model evaluation  
+- `requirements.txt` - Python dependencies  
 
-✨ Features
+## What it does
 
-Interactive web interface built with Streamlit
+- Loads and cleans the stroke prediction dataset  
+- Trains a machine learning model to predict stroke risk  
+- Builds a user-friendly Streamlit web app for input and prediction  
+- Provides health recommendations based on model output  
 
-Inputs include demographics, health conditions, and lifestyle factors
+Feel free to explore and learn from the code!
 
-Predictive model loaded from pre-trained machine learning model files
+---
 
-Visual guidance, warnings, and health recommendations based on prediction
-
-Navigation tabs: Home, About, Contributors for rich user guidance
-
-📂 Files Description
-File	Description
-app.py	Main Streamlit app file containing UI and prediction logic
-model.pkl	Pre-trained stroke prediction machine learning model
-label_encoders.pkl	Encoders for categorical variables used in the model
-metrics.pkl	Model metrics used for evaluation
-confusion_matrix.pkl	Confusion matrix data for model performance
-stroke_prediction_dataset.csv	Dataset used for training/testing the model
-new_notebook.ipynb	Jupyter Notebook containing data exploration, model training, or analysis steps
-requirements.txt	Python dependencies for the project
-
-License
-This project is open-source and free to use for educational and research purposes.
-
+Contact: [ashmitbanerjee11.pkt@gmail.com](mailto:ashmitbanerjee11.pkt@gmail.com)
